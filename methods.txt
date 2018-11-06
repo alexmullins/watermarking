@@ -1,0 +1,12 @@
+Watermarking
+--------------
+1. String insertion in DATA section
+2. String insertion in CODE section
+3. Multi-byte NOP string insertion (hash)
+4. Push string on stack at each bb
+5. Jump to hashed string location
+
+Fingerprinting
+---------------
+1. Hash user's name and insert NOP from #3 above
+2. Hash user's name and use method #5 above
